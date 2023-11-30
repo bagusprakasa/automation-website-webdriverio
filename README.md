@@ -28,13 +28,14 @@ cd my-project
 npm run test
 ```
 
-Then if want to see report with allure you can run this command ```bash
-npm run test
-npm run generate
+Then if want to see report with allure you can run this command
 
+```bash
+npm install
+cd my-project
+npm run test
 ```
 
 ## Tech Stack
 
 **Automation:** Node Js v18.18.2, Webdriver.io v8.23
-```
