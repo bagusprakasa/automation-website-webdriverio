@@ -31,9 +31,8 @@ npm run test
 Then if want to see report with allure you can run this command
 
 ```bash
-npm install
-cd my-project
 npm run test
+npm run generate
 ```
 
 ## Tech Stack
