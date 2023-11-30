@@ -16,6 +16,9 @@ class LoginPage {
   get appLogo() {
     return $(".app_logo");
   }
+  get errorMessage() {
+    return $("[data-test='error']");
+  }
 }
 
 module.exports = new LoginPage();

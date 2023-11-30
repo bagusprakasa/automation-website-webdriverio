@@ -25,9 +25,16 @@ First clone this project
 ```bash
 npm install
 cd my-project
-npm run wdio
+npm run test
+```
+
+Then if want to see report with allure you can run this command ```bash
+npm run test
+npm run generate
+
 ```
 
 ## Tech Stack
 
 **Automation:** Node Js v18.18.2, Webdriver.io v8.23
+```
