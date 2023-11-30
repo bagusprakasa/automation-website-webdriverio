@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "wdio run ./src/conf/wdio.conf.js",
+    "testR": "rm -r allure-results && wdio run ./src/conf/wdio.conf.js",
     "generate": "allure generate allure-results --clean && allure open"
   },
   "author": "bagusprakasa",
